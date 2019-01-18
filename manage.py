@@ -10,6 +10,6 @@ def hello():
 
 if __name__ == '__main__':
     if sys.argv[1]:
-        print('Test Pass')
+        print('Test Pass\n')
     else:
         app.run()
